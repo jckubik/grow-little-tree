@@ -1,0 +1,44 @@
+html {
+  font-size: 62.5%;
+  font-family: fantasy;
+  box-sizing: border-box;
+  height: 90%;
+  width: 90%;
+}
+
+body {
+  background-color: #466D1D;
+  font-size: 4rem;
+  line-height: 1;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  display: block;
+  padding: 2rem;
+  border: 0;
+  border-radius: 15px;
+  outline: 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  background-color: #e7e7e7;
+  box-shadow: 0 0 2px black;
+}
+
+button:hover {
+  box-shadow:
+  inset 0 0 10px black;
+  transition: 0.05s;
+}
+
+img {
+  box-shadow: 0 0 100px 5px black;
+  border-radius: 12px;
+}
